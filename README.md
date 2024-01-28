@@ -1,2 +1,95 @@
-# mychromeconfig
-My browser config
+# My Browser Configuration
+For a more enjoyable and ad-free browsing experience. I aim for an almost entirely open-source setup for transparency and privacy reasons.
+
+## <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/chromium.png" width="30px"> Browser
+To start, install the browser. We will be using ungoogled-chromium, known for being open-source, privacy-preserving, and free from proprietary dependencies.
+
+You can download the newest windows release from [here](https://github.com/ungoogled-software/ungoogled-chromium-windows/actions).
+
+Afterwards, delete the desktop shortcut and download chrome_custom.vbs into, for instance, the Documents or User directory.
+
+Now right-click the chrome_custom.vbs and create a shortcut.
+
+In the Shortcut settings, set the icon to:
+
+**%LOCALAPPDATA%\Chromium\Application\chrome.exe**
+## Browser settings
+Configure the following settings in the browser:
+
+**Privacy and Security -> Third-party cookies -> Send a "Do Not Track" request with your browsing traffic** Enable
+
+**Privacy and Security -> Security -> Encrypt the names of sites you visit** Enable
+
+**Privacy and Security -> Security -> Select DNS provider** OpenDNS
+
+**Performance -> Memory Saver** Enable
+
+**Search Engine -> Manage search engines and site search** Change the searchengine, I added and use Google
+
+**Downloads -> Ask where to save each file before downloading** Enable
+
+**System -> Continue running background apps when Chromium is closed** Enable
+
+## Extensions
+Pin all extensions in the provided installation order unless specified otherwise.
+
+First, install the Chromium web store extension from [here](https://github.com/NeverDecaf/chromium-web-store/releases/). Always pin this extension on the far right.
+
+This extension should always be pinned on the far right.
+
+Next, navigate to the web store [here](https://chromewebstore.google.com/) and install the following extensions:
+
+### <img src="https://wiki.adminforge.de/media/wikipedia/commons/0/05/UBlock_Origin.svg" width="30px"> uBlock Origin
+uBlock Origin (uBO) is a CPU and memory-efficient wide-spectrum content blocker for Chromium and Firefox. It blocks ads, trackers, coin miners, popups, annoying anti-blockers, malware sites, etc.
+
+[Github Repository](https://github.com/gorhill/uBlock)
+
+Go to settings, scroll down, and either import the backup file from the GitHub repository or customize it yourself.
+### <img src="https://raw.githubusercontent.com/bitwarden/brand/e755957e1ae5b84521a4a2491b791e743936af1a/icons/icon.svg" width="30px"> Bitwarden
+Bitwarden is a top-tier password manager supporting 2FA codes, YubiKey, and encrypted files. Making password managing easy!
+
+[Github Repository](https://github.com/bitwarden/clients)
+
+It is recommended to self-host your own Vaultwarden server as a Bitwarden backend. Public Vaultwarden servers are also available, e.g., pwbox.de or bitwarden.servicesforfree.com.
+### <img src="https://raw.githubusercontent.com/wiki/OpenUserJS/OpenUserJS.org/images/violentmonkey_icon.min.svg?sanitize=true" width="30px"> Violentmonkey
+Violentmonkey is a open source userscript manager providing userscript support for browsers.
+
+[Github Repository](https://github.com/violentmonkey/violentmonkey)
+
+Go to settings and import the zip file provided by this repository or search for scripts on [OpenUserJS](https://openuserjs.org/) or [Greasy Fork](https://greasyfork.org/).
+### <img src="https://pbs.twimg.com/profile_images/1105606704090267648/oyZUgnFr_400x400.png" width="30px"> Shodan
+The Shodan plugin reveals where a website is hosted (country, city), who owns the IP, and what other services/ports are open at first glance.
+
+Note: This extension is not open source and is proprietary!
+### <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Tor_Snowflake_logo.svg" width="30px"> Snowflake
+Snowflake allows global access to censored websites and applications over Tor for people from all over the world.
+
+[Gitlab Repository](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake-webext/)
+
+Enable the "Keep running when the browser is closed" option.
+### <img src="https://github.com/NX211/homer-icons/raw/master/png/xbrowsersync.png" width="30px"> xBrowserSync
+Browser syncing done securely, anonymously, and for free. It replaces Google's proprietary sync service.
+
+[Github Repository](https://github.com/xbrowsersync/app)
+
+Selfhosting your own backend server is recommended. Alternatively, you can use one of the following listened servers on [xbrowsersync.org](https://www.xbrowsersync.org/#services).
+### <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/ReturnYoutubeDislike.png" width="30px"> Return YouTube Dislike
+Return YouTube Dislike is an open-source extension that restores the YouTube dislike count.
+
+[Github Repository](https://github.com/Anarios/return-youtube-dislike)
+
+Do not pin this extension!
+### <img src="https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/raw/master/bypass-dark.png" width="30px"> BypassPaywallsClean
+This Extension allows you to read articles from supported news websites that implement a paywall for free!
+
+Download the CRX from [here](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/releases).
+
+Do not pin this extension!
+### <img src="https://libredirect.github.io/img/icon.svg" width="30px"> LibRedirect
+A web extension that redirects YouTube, Twitter, TikTok, and other websites to alternative privacy-friendly frontends.
+
+[Github Repository](https://github.com/libredirect/browser_extension)
+
+Download the CRX from [here](https://libredirect.github.io/download_chromium.html)
+
+Go to settings and Import the settings provided in this repository.
