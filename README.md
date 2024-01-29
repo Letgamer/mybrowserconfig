@@ -6,7 +6,7 @@ To start, install the browser. We will be using ungoogled-chromium, known for be
 
 You can download the newest windows release from [here](https://github.com/ungoogled-software/ungoogled-chromium-windows/actions).
 
-Afterwards, delete the desktop shortcut and download chrome_custom.vbs into, for instance, the Documents or User directory.
+Afterwards, delete the desktop shortcut and download chrome_custom.vbs into **%USERPROFILE%**.
 
 Now right-click the chrome_custom.vbs and create a shortcut.
 
