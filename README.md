@@ -44,7 +44,7 @@ uBlock Origin (uBO) is a CPU and memory-efficient wide-spectrum content blocker 
 
 [Github Repository](https://github.com/gorhill/uBlock)
 
-Go to settings, scroll down, and either import the backup file from the GitHub repository or customize it yourself.
+Go to settings, scroll down, and either import the [backup file](https://github.com/Letgamer/mybrowserconfig/tree/main/extensions/uBlock-Origin) from the GitHub repository or customize it yourself.
 ### <img src="https://raw.githubusercontent.com/bitwarden/brand/e755957e1ae5b84521a4a2491b791e743936af1a/icons/icon.svg" width="30px"> Bitwarden
 Bitwarden is a top-tier password manager supporting 2FA codes, YubiKey, and encrypted files. Making password managing easy!
 
@@ -56,7 +56,7 @@ Violentmonkey is a open source userscript manager providing userscript support f
 
 [Github Repository](https://github.com/violentmonkey/violentmonkey)
 
-Go to settings and import the zip file provided by this repository or search for scripts on [OpenUserJS](https://openuserjs.org/) or [Greasy Fork](https://greasyfork.org/).
+Go to settings and import the [zip file](https://github.com/Letgamer/mybrowserconfig/tree/main/extensions/violentmonkey) provided by this repository or search for scripts on [OpenUserJS](https://openuserjs.org/) or [Greasy Fork](https://greasyfork.org/).
 ### <img src="https://pbs.twimg.com/profile_images/1105606704090267648/oyZUgnFr_400x400.png" width="30px"> Shodan
 The Shodan plugin reveals where a website is hosted (country, city), who owns the IP, and what other services/ports are open at first glance.
 
@@ -92,4 +92,4 @@ A web extension that redirects YouTube, Twitter, TikTok, and other websites to a
 
 Download the CRX from [here](https://libredirect.github.io/download_chromium.html)
 
-Go to settings and Import the settings provided in this repository.
+Go to settings and Import the [settings](https://github.com/Letgamer/mybrowserconfig/tree/main/extensions/libredirect) provided in this repository.
