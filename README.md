@@ -79,6 +79,26 @@ Return YouTube Dislike is an open-source extension that restores the YouTube dis
 [Github Repository](https://github.com/Anarios/return-youtube-dislike)
 
 Do not pin this extension!
+### <img src="https://raw.githubusercontent.com/refined-github/refined-github/main/source/icon.png" width="30px"> Refined Github
+Browser extension that simplifies the GitHub interface and adds useful features
+
+[Github Repository](https://github.com/refined-github/refined-github)
+
+Do not pin this extension!
+### <img src="https://raw.githubusercontent.com/ajayyy/SponsorBlock/master/public/icons/LogoSponsorBlocker256px.png" width="30px"> SponsorBlock
+SponsorBlock is an open-source crowdsourced browser extension to skip sponsor segments in YouTube videos.
+
+[Github Repository](https://github.com/ajayyy/SponsorBlock)
+
+Do not pin this extension!
+### <img src="https://raw.githubusercontent.com/ajayyy/DeArrow/master/public/icons/logo-128.png" width="30px"> DeArrow
+Replaces Youtube Titles and Thumbnails with more accurate, crowdsources versions to reduce sensationalism.
+
+[Github Repository](https://github.com/ajayyy/DeArrow)
+
+Do not pin this extension!
+
+Scroll down to the "I can't/don't want to pay" button and click it. After 24 hours the extension will start working.
 ### <img src="https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/raw/master/bypass-dark.png" width="30px"> BypassPaywallsClean
 This Extension allows you to read articles from supported news websites that implement a paywall for free!
 
