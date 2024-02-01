@@ -91,14 +91,6 @@ SponsorBlock is an open-source crowdsourced browser extension to skip sponsor se
 [Github Repository](https://github.com/ajayyy/SponsorBlock)
 
 Do not pin this extension!
-### <img src="https://raw.githubusercontent.com/ajayyy/DeArrow/master/public/icons/logo-128.png" width="30px"> DeArrow
-Replaces Youtube Titles and Thumbnails with more accurate, crowdsources versions to reduce sensationalism.
-
-[Github Repository](https://github.com/ajayyy/DeArrow)
-
-Do not pin this extension!
-
-Scroll down to the "I can't/don't want to pay" button and click it. After 24 hours the extension will start working.
 ### <img src="https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/raw/master/bypass-dark.png" width="30px"> BypassPaywallsClean
 This Extension allows you to read articles from supported news websites that implement a paywall for free!
 
