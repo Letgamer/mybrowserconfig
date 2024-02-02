@@ -27,7 +27,8 @@ Configure the following settings in the browser:
 
 **Performance -> Memory Saver** Enable
 
-**Search Engine -> Manage search engines and site search**  
+**Search Engine -> Manage search engines and site search**
+
 Change the searchengine, to add Google fill out the form like this:  
 Search engine:  
 `Google`  
@@ -36,7 +37,8 @@ Keyword:
 URL with %s in place of query:  
 `https://www.google.de/search?q=%s`  
 Suggestions URL with %s in place of query:  
-`https://www.google.com/complete/search?client=chrome&q=%s`  
+`https://www.google.com/complete/search?client=chrome&q=%s`
+
 **Downloads -> Ask where to save each file before downloading** Enable
 
 **System -> Continue running background apps when Chromium is closed** Enable
