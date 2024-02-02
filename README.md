@@ -27,8 +27,8 @@ Configure the following settings in the browser:
 
 **Performance -> Memory Saver** Enable
 
-**Search Engine -> Manage search engines and site search** Change the searchengine, to add Google fill out the form like this:
-
+**Search Engine -> Manage search engines and site search**  
+Change the searchengine, to add Google fill out the form like this:  
 Search engine:  
 `Google`  
 Keyword:  
