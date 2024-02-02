@@ -31,19 +31,19 @@ Configure the following settings in the browser:
 
 **Search engine:**
 
-Google
+'Google'
 
 **Keyword:**
 
-Google.de
+'Google.de'
 
 **URL with %s in place of query:**
 
-https://www.google.de/search?q=%s
+'https://www.google.de/search?q=%s'
 
 **Suggestions URL with %s in place of query:**
 
-https://www.google.com/complete/search?client=chrome&q=%s
+'https://www.google.com/complete/search?client=chrome&q=%s'
 
 **Downloads -> Ask where to save each file before downloading** Enable
 
