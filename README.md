@@ -108,8 +108,6 @@ Do not pin this extension!
 This Extension allows you to read articles from supported news websites that implement a paywall for free!
 
 Download the CRX from [here](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/releases).
-
-Do not pin this extension!
 ### <img src="https://libredirect.github.io/img/icon.svg" width="30px"> LibRedirect
 A web extension that redirects YouTube, Twitter, TikTok, and other websites to alternative privacy-friendly frontends.
 
