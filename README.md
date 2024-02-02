@@ -46,9 +46,9 @@ Suggestions URL with %s in place of query:
 ## Extensions
 Pin all extensions in the provided installation order unless specified otherwise.
 
-First, install the Chromium web store extension from [here](https://github.com/NeverDecaf/chromium-web-store/releases/). Always pin this extension on the far right.
+First, install the Chromium web store extension from [here](https://github.com/NeverDecaf/chromium-web-store/releases/).
 
-This extension should always be pinned on the far right.
+This extension should always be pinned on the far right!
 
 Next, navigate to the web store [here](https://chromewebstore.google.com/) and install the following extensions:
 
