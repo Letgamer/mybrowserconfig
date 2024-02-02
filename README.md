@@ -17,6 +17,7 @@ In the Shortcut settings, set the icon to:
 **%LOCALAPPDATA%\Chromium\Application\chrome.exe**
 ## Browser settings
 Configure the following settings in the browser:
+**You and Google -> Sync and Google Services -> Improve search suggestions** Enable
 
 **Privacy and Security -> Third-party cookies -> Send a "Do Not Track" request with your browsing traffic** Enable
 
@@ -26,7 +27,16 @@ Configure the following settings in the browser:
 
 **Performance -> Memory Saver** Enable
 
-**Search Engine -> Manage search engines and site search** Change the searchengine, I added and use Google
+**Search Engine -> Manage search engines and site search** Change the searchengine, to add Google fill out the form like this:
+
+**Search engine:**
+Google
+**Keyword:**
+Google.de
+**URL with %s in place of query:**
+https://www.google.de/search?q=%s
+**Suggestions URL with %s in place of query:**
+https://www.google.com/complete/search?client=chrome&q=%s
 
 **Downloads -> Ask where to save each file before downloading** Enable
 
