@@ -323,6 +323,7 @@
     "redirectType": "main_frame",
     "unsupportedUrls": "bypass"
   },
+  "version": "2.8.1",
   "waybackClassic": [
     "https://wayback-classic.net"
   ],
