@@ -1,0 +1,145 @@
+// ==UserScript==
+// @name Select text inside a link
+// @version 1.0
+// @description Disable link dragging and select text.
+// @license free
+// @include *
+// @grant GM_addStyle
+// @run-at document-start
+// ==/UserScript==
+
+const tracker = createMovementTracker();
+const selection = window.getSelection();
+let state = "WAITING";
+let preState;
+let mousemoves = 0;
+let linkTarget;
+const initPos = [0, 0];
+let selectType;
+
+const EVENTS = {
+  mousedown: e => {
+    if (state === "WAITING" && !e.altKey && !e.button && !/img/i.test(e.target.nodeName)) {
+      const target = findLinkTarget(e.target);
+      if (target && target.href) {
+        selectType = e.ctrlKey ? "add" : e.shiftKey ? "extend" : "new";
+        initPos[0] = e.pageX;
+        initPos[1] = e.pageY;
+        if (selectType === "new" && !selection.isCollapsed && inSelect(getInitPos(), selection)) {
+          return;
+        }
+        mousemoves = 0;
+        state = "STARTING";
+        linkTarget = target;
+        linkTarget.classList.add("select-text-inside-a-link");
+      }
+    }
+  },
+  mousemove: e => {
+    if (state === "STARTING" && ++mousemoves >= 3) {
+      startSelecting(e);
+    }
+    if (state === "STARTED") {
+      const caretPos = caretPositionFromPoint(e.pageX - window.scrollX, e.pageY - window.scrollY);
+      selection.extend(caretPos.offsetNode, caretPos.offset);
+    }
+  },
+  mouseup: () => {
+    if (state !== "WAITING") {
+      preState = state;
+      state = "ENDING";
+      setTimeout(startWaiting);
+    }
+  },
+  click: e => {
+    if (state === "ENDING" && preState === "STARTED") {
+      const clickedTarget = findLinkTarget(e.target);
+      if (clickedTarget === linkTarget) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      }
+      startWaiting();
+    }
+  },
+  dragstart: e => {
+    if (state === "STARTED") {
+      e.preventDefault();
+    } else if (state === "STARTING") {
+      startSelecting(e);
+    }
+  }
+};
+
+for (const key in EVENTS) {
+  document.addEventListener(key, EVENTS[key], true);
+}
+
+if (!document.contentType || !document.contentType.endsWith("/xml")) {
+  document.addEventListener("DOMContentLoaded", function () {
+    GM_addStyle(".select-text-inside-a-link { -moz-user-select: text!important; }");
+  });
+}
+
+function startSelecting(e) {
+  if (!shouldStart(e)) {
+    startWaiting();
+    return;
+  }
+  e.type === "dragstart" && e.preventDefault();
+  if (selectType === "new") {
+    const pos = getInitPos();
+    selection.collapse(pos.offsetNode, pos.offset);
+  } else if (selectType === "add") {
+    const range = new Range();
+    range.setStart(...Object.values(getInitPos()));
+    selection.addRange(range);
+  }
+  state = "STARTED";
+}
+
+function getInitPos() {
+  return caretPositionFromPoint(initPos[0] - window.scrollX, initPos[1] - window.scrollY);
+}
+
+function shouldStart(e) {
+  const delta = tracker ? tracker() : [Math.abs(e.pageX - initPos[0]), Math.abs(e.pageY - initPos[1])];
+  return delta[0] >= delta[1];
+}
+
+function startWaiting() {
+  if (linkTarget) {
+    linkTarget.classList.remove("select-text-inside-a-link");
+  }
+  state = "WAITING";
+  linkTarget = null;
+}
+
+function createMovementTracker() {
+  const moves = Array.from({ length: 3 }, () => [0, 0]);
+  let index = 0;
+  document.addEventListener("mousemove", e => {
+    moves[index] = [e.pageX, e.pageY];
+    index = (index + 1) % 3;
+  });
+  return () => moves.map((m, i) => Math.abs(m[i] - moves[(index + 1) % 3][i]) + Math.abs(moves[(index + 1) % 3][i] - moves[(index + 2) % 3][i]));
+}
+
+function caretPositionFromPoint(x, y) {
+  return document.caretPositionFromPoint ? document.caretPositionFromPoint(x, y) : { offsetNode: document.caretRangeFromPoint(x, y).startContainer, offset: document.caretRangeFromPoint(x, y).startOffset };
+}
+
+function inSelect(caretPos, selection) {
+  for (let i = 0; i < selection.rangeCount; i++) {
+    if (selection.getRangeAt(i).isPointInRange(caretPos.offsetNode, caretPos.offset)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function findLinkTarget(target) {
+  while (target && target.nodeName !== "A" && target.nodeName !== "a") {
+    target = target.parentNode;
+  }
+  return target;
+}
