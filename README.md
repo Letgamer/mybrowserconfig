@@ -10,7 +10,7 @@ Enable the preferred lab settings and set chromium as the default browser after 
 
 Afterwards, delete the desktop shortcut and download [chrome_custom.vbs](https://github.com/Letgamer/mybrowserconfig/blob/main/chrome_custom.vbs) into **%USERPROFILE%**.
 
-Now right-click the chrome_custom.vbs and create a shortcut.
+Now right-click the chrome_custom.vbs and create a shortcut via Send to.
 
 In the Shortcut settings, set the icon to:
 
