@@ -8,13 +8,13 @@ You can download the newest windows release from [here](https://github.com/ungoo
 
 Enable the preferred lab settings and set chromium as the default browser after install.
 
-Afterwards, delete the desktop shortcut and download [chrome_custom.vbs](https://github.com/Letgamer/mybrowserconfig/blob/main/chrome_custom.vbs) into **%USERPROFILE%**.
+Afterwards, delete the desktop shortcut and download [chrome_custom.vbs](https://github.com/Letgamer/mybrowserconfig/blob/main/chrome_custom.vbs) into `%USERPROFILE%`.
 
 Now right-click the chrome_custom.vbs and create a shortcut via Send to.
 
 In the Shortcut settings, set the icon to:
 
-**%LOCALAPPDATA%\Chromium\Application\chrome.exe**
+`%LOCALAPPDATA%\Chromium\Application\chrome.exe`
 ## Browser settings
 Configure the following settings in the browser:
 **You and Google -> Sync and Google Services -> Improve search suggestions** Enable
@@ -29,19 +29,19 @@ Configure the following settings in the browser:
 
 **Search Engine -> Manage search engines and site search** Change the searchengine, to add Google fill out the form like this:
 
-**Search engine:**
+Search engine:
 
 `Google`
 
-**Keyword:**
+Keyword:
 
 `Google.de`
 
-**URL with %s in place of query:**
+URL with %s in place of query:
 
 `https://www.google.de/search?q=%s`
 
-**Suggestions URL with %s in place of query:**
+Suggestions URL with %s in place of query:
 
 `https://www.google.com/complete/search?client=chrome&q=%s`
 
