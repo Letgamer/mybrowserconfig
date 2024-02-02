@@ -8,7 +8,7 @@ You can download the newest windows release from [here](https://github.com/ungoo
 
 Enable the preferred lab settings and set chromium as the default browser after install.
 
-Afterwards, delete the desktop shortcut and download chrome_custom.vbs into **%USERPROFILE%**.
+Afterwards, delete the desktop shortcut and download [chrome_custom.vbs](https://github.com/Letgamer/mybrowserconfig/blob/main/chrome_custom.vbs) into **%USERPROFILE%**.
 
 Now right-click the chrome_custom.vbs and create a shortcut.
 
