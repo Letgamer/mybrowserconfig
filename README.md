@@ -4,7 +4,7 @@ For a more enjoyable and ad-free browsing experience. I aim for an almost entire
 ## <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/chromium.png" width="30px"> Browser
 To start, install the browser. We will be using ungoogled-chromium, known for being open-source, privacy-preserving, and free from proprietary dependencies.
 
-You can download the newest windows release from [here](https://github.com/ungoogled-software/ungoogled-chromium-windows/actions).
+You can download the newest windows release from [here](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases).
 
 Afterwards, delete the desktop shortcut and download chrome_custom.vbs into **%USERPROFILE%**.
 
