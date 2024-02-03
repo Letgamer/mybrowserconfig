@@ -4,17 +4,27 @@ For a more enjoyable and ad-free browsing experience. I aim for an almost entire
 ## <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/chromium.png" width="30px"> Browser
 To start, install the browser. We will be using ungoogled-chromium, known for being open-source, privacy-preserving, and free from proprietary dependencies.
 
-You can download the newest windows release from [here](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases).
-
-Enable the preferred lab settings and set chromium as the default browser after install.
-
-Afterwards, delete the desktop shortcut and download [chrome_custom.vbs](https://github.com/Letgamer/mybrowserconfig/blob/main/chrome_custom.vbs) into `%USERPROFILE%`.
-
-Now right-click the chrome_custom.vbs and create a shortcut via Send to.
-
-In the Shortcut settings, set the icon to:
-
-`%LOCALAPPDATA%\Chromium\Application\chrome.exe`
+You can download the newest windows release from [here](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases).  
+Set chromium as the default browser after install.
+## Chromium Flags
+Enable the following Flags:
+- chrome://flags/#force-dark-mode
+- chrome://flags/#chrome-refresh-2023
+- chrome://flags/#chrome-webui-refresh-2023
+- chrome://flags/#encrypted-client-hello
+- chrome://flags/#fluent-overlay-scrollbars
+- chrome://flags/#fluent-scrollbars
+- chrome://flags/#tab-groups-save
+- chrome://flags/#enable-parallel-downloading
+- chrome://flags/#enable-webrtc-hide-local-ips-with-mdns
+- chrome://flags/#hide-sidepanel-button
+- chrome://flags/#enable-quic
+- chrome://flags/#keep-old-history
+- chrome://flags/#smooth-scrolling
+Specific Flags:
+- Disable chrome://flags/#chrome-labs
+- Set chrome://flags/#enable-force-dark to: Enable with selective inversion of non-image elements
+- Set chrome://flags/#extension-mime-request-handling to: Always prompt for install
 ## Browser settings
 Configure the following settings in the browser:
 **You and Google -> Sync and Google Services -> Improve search suggestions** Enable
