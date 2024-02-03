@@ -21,6 +21,7 @@ Enable the following Flags:
 - chrome://flags/#enable-quic
 - chrome://flags/#keep-old-history
 - chrome://flags/#smooth-scrolling
+
 Specific Flags:
 - Disable chrome://flags/#chrome-labs
 - Set chrome://flags/#enable-force-dark to: Enable with selective inversion of non-image elements
