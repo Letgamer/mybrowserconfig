@@ -24,7 +24,6 @@ Enable the following Flags:
 
 Specific Flags:
 - Disable chrome://flags/#chrome-labs
-- Set chrome://flags/#enable-force-dark to: Enable with selective inversion of non-image elements
 - Set chrome://flags/#extension-mime-request-handling to: Always prompt for install
 ## Browser settings
 Configure the following settings in the browser:
