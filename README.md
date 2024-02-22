@@ -33,7 +33,7 @@ Configure the following settings in the browser:
 
 **Privacy and Security -> Security -> Encrypt the names of sites you visit** Enable
 
-**Privacy and Security -> Security -> Select DNS provider** OpenDNS
+**Privacy and Security -> Security -> Select DNS provider** `https://base.dns.mullvad.net/dns-query`
 
 **Performance -> Memory Saver** Enable
 
@@ -48,8 +48,6 @@ URL with %s in place of query:
 `https://www.google.de/search?q=%s`  
 Suggestions URL with %s in place of query:  
 `https://www.google.com/complete/search?client=chrome&q=%s`
-
-**Downloads -> Ask where to save each file before downloading** Enable
 
 **System -> Continue running background apps when Chromium is closed** Enable
 
