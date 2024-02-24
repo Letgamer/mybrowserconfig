@@ -115,7 +115,7 @@ Do not pin this extension!
 ### <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/chromium.png" width="30px"> Chromium Update Notifier
 A Chrome extension that notifies you when a new version of Ungoogled Chromium is available, based on when you installed the extension or last updated your browser.
 
-[Github Repository](https://github.com/ajayyy/SponsorBlock)
+[Github Repository](https://github.com/claudiodekker/chromium-update-notifier)
 
 Pin this extension to the far right! Set the Version in the Extension settings correctly!
 ### <img src="https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/raw/master/bypass-dark.png" width="30px"> BypassPaywallsClean
