@@ -112,6 +112,12 @@ SponsorBlock is an open-source crowdsourced browser extension to skip sponsor se
 [Github Repository](https://github.com/ajayyy/SponsorBlock)
 
 Do not pin this extension!
+### <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/chromium.png" width="30px"> Chromium Update Notifier
+A Chrome extension that notifies you when a new version of Ungoogled Chromium is available, based on when you installed the extension or last updated your browser.
+
+[Github Repository](https://github.com/ajayyy/SponsorBlock)
+
+Pin this extension to the far right! Set the Version in the Extension settings correctly!
 ### <img src="https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/raw/master/bypass-dark.png" width="30px"> BypassPaywallsClean
 This Extension allows you to read articles from supported news websites that implement a paywall for free!
 
