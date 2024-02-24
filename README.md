@@ -42,7 +42,7 @@ Configure the following settings in the browser:
 Change the searchengine, to add Google fill out the form like this:  
 Search engine:  
 `Google`  
-Keyword:  
+Shortcut:  
 `Google.de`  
 URL with %s in place of query:  
 `https://www.google.de/search?q=%s`  
