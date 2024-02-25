@@ -24,7 +24,6 @@ Enable the following Flags:
 - chrome://flags/#fingerprinting-canvas-measuretext-noise
 - chrome://flags/#fingerprinting-canvas-image-data-noise
 - chrome://flags/#force-punycode-hostnames
-- chrome://flags/#remove-referrers
 - chrome://flags/#fingerprinting-client-rects-noise
 
 Specific Flags:
