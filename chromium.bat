@@ -18,14 +18,10 @@ set "TAG=!TAG:"=!"
 
 curl -L "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/%TAG%/ungoogled-chromium_%TAG%_installer_x64.exe" -o "%tempDir%\ungoogled-chromium_installer_x64.exe"
 
-if not exist "%LOCALAPPDATA%\Chromium\User Data\Default" mkdir "%LOCALAPPDATA%\Chromium\User Data\Default"
-
-copy /y "initial_preferences" "%LOCALAPPDATA%\Chromium\User Data\Default"
-
 start /b /wait "" "%tempDir%\ungoogled-chromium_installer_x64.exe" /S
 
 REM Cleanup temporary files
 if exist "%tempDir%" rd /s /q "%tempDir%"
 
 endlocal
-
+pause
