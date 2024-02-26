@@ -11,6 +11,14 @@ Set chromium as the default browser after install.
 In the next Step the necessary Chromium Flags should be changed.  
 Adhere to the [Flags Documentation](https://github.com/Letgamer/mybrowserconfig/blob/main/FLAGS.md).
 
+## Privacy and Security
+Even tho Firefox is often advocated as a very privacy friendly and secure Browser, Firefox is significantly worse in Terms of Security.  
+Firefox not only lacks mature site isolation but also important exploit mitigations such as an Arbitrary Code Guard and Code Integrity Guard.
+
+Privacy wise this Browser Configuration is also extremely bad. Trough the unique config and installed Extensions fingerprinting is unavoidable.
+
+Please be aware that the privacy and security threat model inherent in browsers and web technologies is fundamentally flawed. The provided configuration should be regarded as the best among a range of inadequate options.
+
 ## Browser settings
 Configure the following settings in the browser:
 **You and Google -> Sync and Google Services -> Improve search suggestions** Enable
