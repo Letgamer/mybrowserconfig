@@ -19,6 +19,7 @@ Enable the following Flags:
 - chrome://flags/#fingerprinting-canvas-image-data-noise
 - chrome://flags/#force-punycode-hostnames
 - chrome://flags/#fingerprinting-client-rects-noise
+- chrome://flags/#reduce-accept-language
 
 Specific Flags:
 - Disable chrome://flags/#chrome-labs
