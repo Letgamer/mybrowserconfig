@@ -1,34 +1,16 @@
 # My Browser Configuration
-For a more enjoyable and ad-free browsing experience. I aim for an almost entirely open-source setup for transparency and privacy reasons.
+For a more enjoyable and ad-free browsing experience on Windows. I aim for an almost entirely open-source setup for transparency and privacy reasons.
 
 ## <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/chromium.png" width="30px"> Browser
 To start, install the browser. We will be using ungoogled-chromium, known for being open-source, privacy-preserving, and free from proprietary dependencies.
 
-You can download the newest windows release from [here](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases).  
+You can download the newest windows release from [here](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases).
+Or install the latest version automatically via the [chromium.bat](https://github.com/Letgamer/mybrowserconfig/blob/main/chromium.bat)
 Set chromium as the default browser after install.
-## Chromium Flags
-Enable the following Flags:
-- chrome://flags/#force-dark-mode
-- chrome://flags/#chrome-refresh-2023
-- chrome://flags/#chrome-webui-refresh-2023
-- chrome://flags/#encrypted-client-hello
-- chrome://flags/#fluent-overlay-scrollbars
-- chrome://flags/#fluent-scrollbars
-- chrome://flags/#tab-groups-save
-- chrome://flags/#enable-parallel-downloading
-- chrome://flags/#enable-webrtc-hide-local-ips-with-mdns
-- chrome://flags/#hide-sidepanel-button
-- chrome://flags/#enable-quic
-- chrome://flags/#keep-old-history
-- chrome://flags/#smooth-scrolling
-- chrome://flags/#fingerprinting-canvas-measuretext-noise
-- chrome://flags/#fingerprinting-canvas-image-data-noise
-- chrome://flags/#force-punycode-hostnames
-- chrome://flags/#fingerprinting-client-rects-noise
 
-Specific Flags:
-- Disable chrome://flags/#chrome-labs
-- Set chrome://flags/#extension-mime-request-handling to: Always prompt for install
+In the next Step the necessary Chromium Flags should be changed.
+Adhere to the [Flags Documentation](https://github.com/Letgamer/mybrowserconfig/blob/main/FLAGS.md).
+
 ## Browser settings
 Configure the following settings in the browser:
 **You and Google -> Sync and Google Services -> Improve search suggestions** Enable
