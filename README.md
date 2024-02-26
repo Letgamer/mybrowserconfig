@@ -8,7 +8,7 @@ You can download the newest windows release from [here](https://github.com/ungoo
 Or install the latest version automatically via the [chromium.bat](https://github.com/Letgamer/mybrowserconfig/blob/main/chromium.bat)
 Set chromium as the default browser after install.
 
-In the next Step the necessary Chromium Flags should be changed.
+In the next Step the necessary Chromium Flags should be changed.  
 Adhere to the [Flags Documentation](https://github.com/Letgamer/mybrowserconfig/blob/main/FLAGS.md).
 
 ## Browser settings
