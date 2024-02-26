@@ -20,7 +20,9 @@ Enable the following Flags:
 - chrome://flags/#force-punycode-hostnames
 - chrome://flags/#fingerprinting-client-rects-noise
 - chrome://flags/#reduce-accept-language
+- chrome://flags/#no-pings
 
 Specific Flags:
 - Disable chrome://flags/#chrome-labs
 - Set chrome://flags/#extension-mime-request-handling to: Always prompt for install
+- chrome://flags/#webrtc-ip-handling-policy to: Default public interface only
