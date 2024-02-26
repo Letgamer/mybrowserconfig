@@ -1,4 +1,6 @@
-## Chromium Flags
+# Chromium Flags
+The following Flags are always kept up-to-date, feel free to open a new issue if thats not the case
+
 Enable the following Flags:
 - chrome://flags/#force-dark-mode
 - chrome://flags/#chrome-refresh-2023
