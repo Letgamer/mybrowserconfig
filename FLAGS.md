@@ -21,6 +21,7 @@ Enable the following Flags:
 - chrome://flags/#fingerprinting-client-rects-noise
 - chrome://flags/#reduce-accept-language
 - chrome://flags/#no-pings
+- chrome://flags/#enable-tls13-kyber
 
 Specific Flags:
 - Disable chrome://flags/#chrome-labs
