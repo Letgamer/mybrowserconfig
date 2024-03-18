@@ -9,7 +9,6 @@ Enable the following Flags:
 - chrome://flags/#fluent-overlay-scrollbars
 - chrome://flags/#hide-sidepanel-button
 - chrome://flags/#smooth-scrolling
-- chrome://flags/#encrypted-client-hello
 - chrome://flags/#tab-groups-save
 - chrome://flags/#enable-parallel-downloading
 - chrome://flags/#enable-webrtc-hide-local-ips-with-mdns
